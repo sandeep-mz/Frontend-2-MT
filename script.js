@@ -218,7 +218,7 @@ function displaySearch(){
               </div>
             </div>
             <div class="card__info-last">
-              <h3>${e.time} min</h3>
+              <h3>${e.time} </h3>
               <div class="share__container">
                 <img src="./assets/like.svg" class="like_img" alt="like" />
                 <img src="./assets/comments.svg" alt="like" />
@@ -276,7 +276,7 @@ function defaultCards () {
           </div>
         </div>
         <div class="card__info-last">
-          <h3>${e.time} min</h3>
+          <h3>${e.time}</h3>
           <div class="share__container">
             <img src="./assets/like.svg" class="like_img" alt="like" />
             <img src="./assets/comments.svg" alt="like" />
@@ -338,7 +338,7 @@ secondFilterBtn.addEventListener("click", () => {
           </div>
         </div>
         <div class="card__info-last">
-          <h3>${e.time} min</h3>
+          <h3>${e.time}</h3>
           <div class="share__container">
             <img src="./assets/like.svg" class="like_img" alt="like" />
             <img src="./assets/comments.svg" alt="like" />
@@ -430,7 +430,7 @@ fourAbove.addEventListener("change", function () {
             </div>
             </div>
             <div class="card__info-last">
-            <h3>${e.time} min</h3>
+            <h3>${e.time}</h3>
             <div class="share__container">
             <img src="./assets/like.svg" a class="like_img"lt="like" />
             <img src="./assets/comments.svg" alt="like" />
@@ -478,7 +478,7 @@ if(this.checked){
           </div>
         </div>
         <div class="card__info-last">
-          <h3>${e.time} min</h3>
+          <h3>${e.time}</h3>
           <div class="share__container">
             <img src="./assets/like.svg" class="like_img" alt="like" />
             <img src="./assets/comments.svg" alt="like" />
