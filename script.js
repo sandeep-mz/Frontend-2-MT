@@ -35,7 +35,7 @@ let recipes = [
         "imageSrc": "https://source.unsplash.com/random?veggies",
         "time": "30 min",
         "type": "veg",
-        "isLiked": true,
+        "isLiked": false,
         "rating": 4.2
     },
     {
@@ -51,7 +51,7 @@ let recipes = [
         "imageSrc": "https://source.unsplash.com/random?pizza",
         "time": "40 min",
         "type": "veg",
-        "isLiked": true,
+        "isLiked": false,
         "rating": 4.1
     },
     {
@@ -67,7 +67,7 @@ let recipes = [
         "imageSrc": "https://source.unsplash.com/random?salmon",
         "time": "50 min",
         "type": "non-veg",
-        "isLiked": true,
+        "isLiked": false,
         "rating": 4.6
     },
     {
