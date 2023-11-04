@@ -3,7 +3,7 @@
 let menuBtn = document.querySelector(".menu__icon");
 let mobileNav = document.querySelector(".Mobile__nav");
 
-mobileNav.style.transition = "all 0.5s ease";
+mobileNav.style.transition = "all 5s ease";
 
 let isNavOpen = false;
 
@@ -35,7 +35,7 @@ let recipes = [
         "imageSrc": "https://source.unsplash.com/random?veggies",
         "time": "30 min",
         "type": "veg",
-        "isLiked": true,
+        "isLiked": false,
         "rating": 4.2
     },
     {
@@ -51,7 +51,7 @@ let recipes = [
         "imageSrc": "https://source.unsplash.com/random?pizza",
         "time": "40 min",
         "type": "veg",
-        "isLiked": true,
+        "isLiked": false,
         "rating": 4.1
     },
     {
@@ -67,7 +67,7 @@ let recipes = [
         "imageSrc": "https://source.unsplash.com/random?salmon",
         "time": "50 min",
         "type": "non-veg",
-        "isLiked": true,
+        "isLiked": false,
         "rating": 4.6
     },
     {
@@ -225,9 +225,26 @@ function displaySearch(){
               </div>
             </div>`;
     
-            let likeImg = cardElement.querySelector(".like_img"); 
-            if (e.isLiked === true) {
-            likeImg.src = "../assets/like (1).svg";
+            let likeImg = cardElement.querySelector(".like_img");
+            likeImg.addEventListener("click", () => {
+                // Toggle the isLiked property when clicked
+                e.isLiked = !e.isLiked;
+    
+                // Check the updated isLiked status
+                if (e.isLiked) {
+                    // Change the image source to the "liked" image
+                    likeImg.src = "./assets/liked.svg";
+                } else {
+                    // Change the image source back to the "like" image
+                    likeImg.src = "./assets/like.svg";
+                }
+            });
+    
+            // Set the initial image based on the isLiked property
+            if (e.isLiked) {
+                likeImg.src = "./assets/liked.svg";
+            } else {
+                likeImg.src = "./assets/like.svg";
             }
     
             cardDiv.appendChild(cardElement);  
@@ -283,9 +300,26 @@ function defaultCards () {
           </div>
         </div>`;
         
-        let likeImg = cardElement.querySelector(".like_img"); 
-        if (e.isLiked === true) {
-        likeImg.src = "../assets/like (1).svg";
+        let likeImg = cardElement.querySelector(".like_img");
+        likeImg.addEventListener("click", () => {
+            // Toggle the isLiked property when clicked
+            e.isLiked = !e.isLiked;
+
+            // Check the updated isLiked status
+            if (e.isLiked) {
+                // Change the image source to the "liked" image
+                likeImg.src = "./assets/liked.svg";
+            } else {
+                // Change the image source back to the "like" image
+                likeImg.src = "./assets/like.svg";
+            }
+        });
+
+        // Set the initial image based on the isLiked property
+        if (e.isLiked) {
+            likeImg.src = "./assets/liked.svg";
+        } else {
+            likeImg.src = "./assets/like.svg";
         }
         cardDiv.appendChild(cardElement);  
     })
@@ -345,10 +379,28 @@ secondFilterBtn.addEventListener("click", () => {
           </div>
         </div>`;
 
-        let likeImg = cardElement.querySelector(".like_img"); 
-        if (e.isLiked === true) {
-        likeImg.src = "../assets/like (1).svg";
+        let likeImg = cardElement.querySelector(".like_img");
+        likeImg.addEventListener("click", () => {
+            // Toggle the isLiked property when clicked
+            e.isLiked = !e.isLiked;
+
+            // Check the updated isLiked status
+            if (e.isLiked) {
+                // Change the image source to the "liked" image
+                likeImg.src = "./assets/liked.svg";
+            } else {
+                // Change the image source back to the "like" image
+                likeImg.src = "./assets/like.svg";
+            }
+        });
+
+        // Set the initial image based on the isLiked property
+        if (e.isLiked) {
+            likeImg.src = "./assets/liked.svg";
+        } else {
+            likeImg.src = "./assets/like.svg";
         }
+
 
         cardDiv.appendChild(cardElement);  
     })
@@ -388,9 +440,26 @@ thirdFilterBtn.addEventListener("click", () => {
           </div>
         </div>`;
 
-        let likeImg = cardElement.querySelector(".like_img"); 
-        if (e.isLiked === true) {
-        likeImg.src = "../assets/like (1).svg";
+        let likeImg = cardElement.querySelector(".like_img");
+        likeImg.addEventListener("click", () => {
+            // Toggle the isLiked property when clicked
+            e.isLiked = !e.isLiked;
+
+            // Check the updated isLiked status
+            if (e.isLiked) {
+                // Change the image source to the "liked" image
+                likeImg.src = "./assets/liked.svg";
+            } else {
+                // Change the image source back to the "like" image
+                likeImg.src = "./assets/like.svg";
+            }
+        });
+
+        // Set the initial image based on the isLiked property
+        if (e.isLiked) {
+            likeImg.src = "./assets/liked.svg";
+        } else {
+            likeImg.src = "./assets/like.svg";
         }
 
         cardDiv.appendChild(cardElement);  
@@ -437,9 +506,26 @@ fourAbove.addEventListener("change", function () {
             </div>
             </div>`;
 
-            let likeImg = cardElement.querySelector(".like_img"); 
-            if (e.isLiked === true) {
-            likeImg.src = "../assets/like (1).svg";
+            let likeImg = cardElement.querySelector(".like_img");
+            likeImg.addEventListener("click", () => {
+                // Toggle the isLiked property when clicked
+                e.isLiked = !e.isLiked;
+    
+                // Check the updated isLiked status
+                if (e.isLiked) {
+                    // Change the image source to the "liked" image
+                    likeImg.src = "./assets/liked.svg";
+                } else {
+                    // Change the image source back to the "like" image
+                    likeImg.src = "./assets/like.svg";
+                }
+            });
+    
+            // Set the initial image based on the isLiked property
+            if (e.isLiked) {
+                likeImg.src = "./assets/liked.svg";
+            } else {
+                likeImg.src = "./assets/like.svg";
             }
             cardDiv.appendChild(cardElement);  
         })
@@ -485,9 +571,26 @@ if(this.checked){
           </div>
         </div>`;
 
-        let likeImg = cardElement.querySelector(".like_img"); 
-        if (e.isLiked === true) {
-        likeImg.src = "../assets/like (1).svg";
+        let likeImg = cardElement.querySelector(".like_img");
+        likeImg.addEventListener("click", () => {
+            // Toggle the isLiked property when clicked
+            e.isLiked = !e.isLiked;
+
+            // Check the updated isLiked status
+            if (e.isLiked) {
+                // Change the image source to the "liked" image
+                likeImg.src = "./assets/liked.svg";
+            } else {
+                // Change the image source back to the "like" image
+                likeImg.src = "./assets/like.svg";
+            }
+        });
+
+        // Set the initial image based on the isLiked property
+        if (e.isLiked) {
+            likeImg.src = "./assets/liked.svg";
+        } else {
+            likeImg.src = "./assets/like.svg";
         }
 
         cardDiv.appendChild(cardElement);  
