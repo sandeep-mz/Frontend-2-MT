@@ -372,11 +372,7 @@ secondFilterBtn.addEventListener("click", () => {
           </div>
         </div>
         <div class="card__info-last">
-<<<<<<< HEAD
           <h3>${e.time}</h3>
-=======
-          <h3>${e.time} </h3>
->>>>>>> a8f9d73018d11b1a1c8c91cb86a81a965f303807
           <div class="share__container">
             <img src="./assets/like.svg" class="like_img" alt="like" />
             <img src="./assets/comments.svg" alt="like" />
@@ -503,11 +499,7 @@ fourAbove.addEventListener("change", function () {
             </div>
             </div>
             <div class="card__info-last">
-<<<<<<< HEAD
             <h3>${e.time}</h3>
-=======
-            <h3>${e.time} </h3>
->>>>>>> a8f9d73018d11b1a1c8c91cb86a81a965f303807
             <div class="share__container">
             <img src="./assets/like.svg" a class="like_img"lt="like" />
             <img src="./assets/comments.svg" alt="like" />
@@ -572,11 +564,7 @@ if(this.checked){
           </div>
         </div>
         <div class="card__info-last">
-<<<<<<< HEAD
           <h3>${e.time}</h3>
-=======
-          <h3>${e.time} </h3>
->>>>>>> a8f9d73018d11b1a1c8c91cb86a81a965f303807
           <div class="share__container">
             <img src="./assets/like.svg" class="like_img" alt="like" />
             <img src="./assets/comments.svg" alt="like" />
