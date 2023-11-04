@@ -370,6 +370,7 @@
   .share__container {
     display: flex;
     gap: 10px;
+    
   }
   
   .star_rating {
@@ -403,6 +404,7 @@
     width: 25px;
     height: 25px;
     flex-shrink: 0;
+    cursor: pointer;
   }
   
   /* md */
@@ -442,6 +444,7 @@
       width: 25px;
       height: 25px;
       flex-shrink: 0;
+      cursor: pointer;
     }
     .star_rating {
       display: none;
