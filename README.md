@@ -21,9 +21,6 @@ The Interactive Recipe Catalogue is a web application that allows users to view 
 - Responsive Design: Optimized for both desktop and mobile devices.
 - Mobile Drawer: A toggleable drawer for mobile users.
 
-## Demo
-[Link to Live Demo](https://sandeep-mz.github.io/Frontend-2-MT/) (Add the link to your live project here)
-
 ## Installation
 To run this project locally, follow these steps:
 
