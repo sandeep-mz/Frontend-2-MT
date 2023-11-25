@@ -18,15 +18,6 @@ menuBtn.addEventListener("click", () => {
     }
 })
 
-// -------------  for Menu Button or Mobile nav end--------
-
-
-
-
-// -----------------------All Veg Non Veg Filtering js start --------------
-
-
-
 // Jason info
 
 let recipes = [
